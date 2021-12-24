@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 import requests
-tokenFile = open("API.key", 'r')
+tokenFile = open("token", 'r')
 token = tokenFile.readline().rstrip()
 
 bot = telebot.TeleBot(token)
