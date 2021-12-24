@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 import requests
-token = "5035729554:AAHCIDSrzIeuXi8-s6DAjilyunU-AADHFYo"
+token = ""
 
 bot = telebot.TeleBot(token)
 x = bot.get_me()
